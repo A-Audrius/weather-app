@@ -1,6 +1,23 @@
+
+
+body{
+    font-size:14px;
+    font-family: Roboto, sans-serif
+}
+.main {
+    justify-content: center;
+}
+
+.app{
+    min-height:50vh;
+    color: black;
+    border:2px solid #4b4b4b;
+    box-shadow:1px 1px 10px #000;
+}
+.app a{
+    color: red;
+    text-decoration:none
+}
 .text-center {
     text-align: center;
-}
-li {
-    text-align: left;
 }

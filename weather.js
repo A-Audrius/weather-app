@@ -1,7 +1,5 @@
 
 
-
-
 key = "5e5d0d1ef34172317a498ab696fe5bd3";
 
 
@@ -14,7 +12,7 @@ let getWeather = () => {
   let cityValue = cityRef.value;
   //If input field is empty
   if (cityValue.length == 0) {
-    result.innerHTML = `<h6 class="msg">Please enter a city name</h6>`;
+    result.innerHTML = `<h6 class="msg error ">Please enter a city name</h6>`;
   }
   //If input field is NOT empty
   else {

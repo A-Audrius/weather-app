@@ -19,7 +19,7 @@
   body{
     font-size:14px;
     font-family: Roboto, sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(135deg, var(--blue-1), var(--blue-2));
 }
 
@@ -31,7 +31,8 @@
     min-height: 8em;
     background: var(--transp-white-2);
     backdrop-filter: blur(10px);
-    padding: 3em 1.8em;
+    /* padding: 3em 1.8em; */
+    padding: 0 !important;
     border: 2px solid var(--transp-white-2);
     border-radius: 0.6em;
     box-shadow: 0 1.8em 3.7em var(--shadow);
@@ -45,15 +46,15 @@
     border-radius: 50%;
   }
   .shape-1 {
-    height: 13em;
-    width: 13em;
-    right: -6.5em;
+    height: 8em;
+    width: 8em;
+    right: -0.5em;
     top: 1.8em;
   }
   .shape-2 {
     height: 11em;
     width: 11em;
-    bottom: -0.7em;
+    bottom: 2em;
     left: -2.5em;
   }
 
